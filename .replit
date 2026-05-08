@@ -1,0 +1,20 @@
+language = "nodejs"
+run = "npm run dev"
+
+[nix]
+channel = "stable-24_05"
+packages = [
+  "ffmpeg_6",
+  "ffprobe_6", 
+  "nodejs_20",
+  "python311",
+  "sox",
+  "lame",
+  "rubberband"
+]
+
+[deploy]
+run = "npm start"
+
+[environment]
+# Replit will inject secrets from Secrets tab
