@@ -1,7 +1,41 @@
+# Dependencies
 node_modules/
+
+# Environment
 .env
+.env.local
+.env*.local
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Uploads & outputs (temporary files)
 uploads/
 outputs/
-*.log
+*.tmp
+*.temp
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+
+# Replit specific
+.replit.local
